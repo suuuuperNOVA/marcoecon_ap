@@ -1,0 +1,12 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: py/unit02
+  sections:
+  - file: py/unit021
+  - file: py/unit022
+  - file: py/unit023
+  - file: py/unit024
