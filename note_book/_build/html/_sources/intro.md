@@ -1,4 +1,4 @@
-# Welcome to AP Mircoeconomics
+# Welcome to AP Marcoeconomics
 
 
 ## Table of Content

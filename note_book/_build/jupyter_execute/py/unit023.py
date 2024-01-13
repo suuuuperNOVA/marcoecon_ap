@@ -5,7 +5,7 @@
 
 # ```{admonition} Definitions
 # Labor force
-# : People ages 16 and older who are employed or actively seeking employment (willing to work).
+# : People age 16 and older who are employed or actively seeking employment (willing to work).
 # : Not institutionalized (in jails or hospitals).
 # : Not in military, in school full time, to retired.<br><br>
 # 
@@ -42,7 +42,7 @@
 # **Structural unemployment**<br>
 # Structural unemployment is a type of long-term unemployment caused by shifts in the economy. It occurs when there is an oversupply of jobs and people who are willing to work them, but those people are not qualified to do so. Workers must learn new skills to get a job. One of the reasons behind structural unemployment is technological advances, which can cause some types of skilled laborers to become obsolete.<br>
 # 
-# **Cyclically unemployment**<br>
+# **Cyclical unemployment**<br>
 # Unemployment caused by a recession. As demand for goods and services falls, demand for labor falls and workers are laid off.<br>
 # 
 # **Seasonal unemployment**<br>

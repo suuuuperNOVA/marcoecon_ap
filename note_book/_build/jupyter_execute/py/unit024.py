@@ -17,7 +17,7 @@
 # : Occasions when the inflation rate has reduced marginally over the short term.
 
 # - Governments always want to achieve a slight inflation because a slight inflation can stimulate consumption.
-# - A high inflation is bad because banks don’t lend and people don’t save. This decreases Investment and GDP.
+# - A high inflation is bad because banks don’t lend and people don’t save. This decreases investment and GDP.
 # - Deflation is bad because people will hoard money and assets. This decreases consumer spending and GDP.
 
 # ## Measuring Inflation
