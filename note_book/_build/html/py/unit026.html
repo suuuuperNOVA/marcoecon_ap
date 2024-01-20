@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Circular Flow and GDP &#8212; AP Macroeconomics</title>
+    <title>Real vs. Nominal GDP &#8212; AP Macroeconomics</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet">
   <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -51,8 +51,8 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Limitations of GDP" href="unit022.html" />
-    <link rel="prev" title="Economic Indicators and the Business Cycle" href="unit02.html" />
+    <link rel="next" title="Business Cycles" href="unit027.html" />
+    <link rel="prev" title="Costs of Inflation" href="unit025.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -107,8 +107,8 @@
    </i>
   </label>
   <ul class="current">
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
+   <li class="toctree-l2">
+    <a class="reference internal" href="unit021.html">
      The Circular Flow and GDP
     </a>
    </li>
@@ -132,8 +132,8 @@
      Costs of Inflation
     </a>
    </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="unit026.html">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
      Real vs. Nominal GDP
     </a>
    </li>
@@ -185,7 +185,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/py/unit021.ipynb"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/py/unit026.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.ipynb</button></a>
         <!-- Download PDF via print -->
@@ -210,7 +210,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/py/unit021.ipynb"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/py/unit026.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="../_static/images/logo_binder.svg"
@@ -233,41 +233,9 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#circular-flow">
-   Circular Flow
+  <a class="reference internal nav-link" href="#gdp-deflator">
+   GDP Deflator
   </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#approaches-to-calculate-gdp">
-   Approaches to Calculate GDP
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#expenditure-approach">
-     Expenditure Approach
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#income-approach">
-     Income Approach
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#value-added-approach">
-     Value Added Approach
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#example">
-     Example
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#items-not-included-in-gdp">
-     Items NOT Included in GDP
-    </a>
-   </li>
-  </ul>
  </li>
 </ul>
 
@@ -280,191 +248,48 @@
         
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="the-circular-flow-and-gdp">
-<h1>The Circular Flow and GDP<a class="headerlink" href="#the-circular-flow-and-gdp" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="circular-flow">
-<h2>Circular Flow<a class="headerlink" href="#circular-flow" title="Permalink to this headline">¶</a></h2>
-<p>In the microeconomics, we have learned that there are 2 markets: the product market and the resource market.</p>
-<ul class="simple">
-<li><p>Product market<br>where the goods and services are traded.</p></li>
-<li><p>Resource market<br>where the factors of productions are traded.</p></li>
-</ul>
-<p>There are more sectors in the circular flow model as shown in the figure below:</p>
-<ul class="simple">
-<li><p>Households</p>
-<ul>
-<li><p>Consumers in the product market pay to the firms.</p></li>
-<li><p>Suppliers in the factor market get paid from firms.</p></li>
-<li><p>Tax payers to the government.</p></li>
-</ul>
-</li>
-<li><p>Firms</p>
-<ul>
-<li><p>Suppliers in the product market get paid from households.</p></li>
-<li><p>Consumers in the factor market pay to the households.</p>
-<ul>
-<li><p>Rent</p></li>
-<li><p>Wage</p></li>
-<li><p>Interest</p></li>
-<li><p>Profit</p></li>
-</ul>
-</li>
-<li><p>Tax payers to the government.</p></li>
-</ul>
-</li>
-<li><p>Government</p>
-<ul>
-<li><p>Consumers in the product market.</p></li>
-<li><p>Consumers in the factor market.</p></li>
-<li><p>Tax revenue from households and firms.</p></li>
-<li><p>Subsidize firms.</p></li>
-<li><p>Give welfare to households.</p></li>
-<li><p>Provide public goods to households and firms.</p></li>
-</ul>
-</li>
-<li><p>Foreign economies</p>
-<ul>
-<li><p>Domestic firms can export goods and services to the rest of the world.</p></li>
-<li><p>Domestic households can import goods and services from the rest of the world.</p></li>
-</ul>
-</li>
-</ul>
-<img src="../pic/unit021_flow.jpg" alt="pes" width="600"/></div>
-<div class="section" id="approaches-to-calculate-gdp">
-<h2>Approaches to Calculate GDP<a class="headerlink" href="#approaches-to-calculate-gdp" title="Permalink to this headline">¶</a></h2>
-<div class="admonition-definitions admonition">
-<p class="admonition-title">Definitions</p>
+  <div class="tex2jax_ignore mathjax_ignore section" id="real-vs-nominal-gdp">
+<h1>Real vs. Nominal GDP<a class="headerlink" href="#real-vs-nominal-gdp" title="Permalink to this headline">¶</a></h1>
 <dl class="simple myst">
-<dt>National Economic Accounts</dt><dd><p>A group of statistics that measure various aspects of the economy’s performance.</p>
+<dt>Nominal GDP</dt><dd><p>GDP measured in current prices. It does not account for inflation from year to year.<br><br></p>
 </dd>
-<dd><p>e.g. personal income, corporate profits, GDP<br><br></p>
+<dt>Real GDP</dt><dd><p>Output measured using constant prices. Effect of changes in the overall price level is removed.</p>
 </dd>
-<dt>Gross domestic product/GDP</dt><dd><p>Dollar value of all <strong>final</strong> goods and services produced <strong>within a country</strong> in one year.<br><br></p>
-</dd>
-<dt>GDP per capita</dt><dd><p>GDP per person.</p>
+<dd><p>Measure how much is produced.</p>
 </dd>
 </dl>
-</div>
-<div class="section" id="expenditure-approach">
-<h3>Expenditure Approach<a class="headerlink" href="#expenditure-approach" title="Permalink to this headline">¶</a></h3>
-<p>Based on the circular flow diagram, GDP can be estimated by adding expenditures of all households, firms, government and the money earned from trading:</p>
-<ul class="simple">
-<li><p><strong>Consumption expenditures (C)</strong><br>Consumer spending including:</p>
-<ul>
-<li><p>Durable goods</p></li>
-<li><p>Non-durable goods</p></li>
-<li><p>Services</p></li>
-</ul>
-</li>
-<li><p><strong>Investment expenditures (I)</strong><br>Expenditures by business on plant and equipment (for business purposes)</p>
-<ul>
-<li><p>Change of inventories included</p>
-<ul>
-<li><p>If the goods are produced, but not sold, the goods will become inventory.</p></li>
-<li><p>When the goods are sold, the inventory will decrease.</p></li>
-<li><p>Changes in inventory will be included in GDP.</p></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>Government expenditures (G)</strong></p>
-<ul>
-<li><p>Services provided by government.</p></li>
-<li><p>Goods and services consumed by government.</p></li>
-</ul>
-</li>
-<li><p><strong>Exports and imports (X)</strong></p>
-<ul>
-<li><p>Export - Import</p></li>
-<li><p>Imports should not be included which are not produced in the domestic.</p></li>
-</ul>
-</li>
-</ul>
-<p>GPD by expenditure approach:<br>
-<strong>GDP = C + I + G + X</strong></p>
-</div>
-<div class="section" id="income-approach">
-<h3>Income Approach<a class="headerlink" href="#income-approach" title="Permalink to this headline">¶</a></h3>
-<p>Income approach is to add up all the income that was earned in the economy:</p>
-<ul class="simple">
-<li><p>Rent</p></li>
-<li><p>Wage</p></li>
-<li><p>Interest</p></li>
-<li><p>Profit</p></li>
-<li><p>Indirect business taxes (business licenses)</p></li>
-<li><p>Depreciation</p></li>
-</ul>
-</div>
-<div class="section" id="value-added-approach">
-<h3>Value Added Approach<a class="headerlink" href="#value-added-approach" title="Permalink to this headline">¶</a></h3>
-<p>Value added approach is to add up the dollar value added at each stage of the production process.</p>
-</div>
-<div class="section" id="example">
-<h3>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h3>
-<p>Suppose there are 3 companies in an economy as shown in the figure below. National Motors who uses steel from National Steel produces the final goods, cars. National Steel uses iron ore from National Ore to produces steel.</p>
-<ul class="simple">
-<li><p>Expenditure approach</p>
-<ul>
-<li><p>Value of the final goods</p></li>
-</ul>
-</li>
-<li><p>Income approach</p>
-<ul>
-<li><p>Add up all the income</p></li>
-</ul>
-</li>
-<li><p>Value added approach</p>
-<ul>
-<li><p>National Ore</p>
-<ul>
-<li><p>Value generated by producing iron ore is $4,200.</p></li>
-</ul>
-</li>
-<li><p>National Steel</p>
-<ul>
-<li><p>Value generated by producing steel is $9,000 - $4,200.</p>
-<ul>
-<li><p>National Steel uses the intermediate goods (iron ore) from National Ore.</p></li>
-<li><p>Value of National Ore is deducted.</p></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>National Motors</p>
-<ul>
-<li><p>Value generated by producing cars is $21,500 - $9,000.</p>
-<ul>
-<li><p>National Motors uses the intermediate goods (steel) from National Steel.</p></li>
-<li><p>Value of National Steel is deducted.</p></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>Finally, each of these methods should generate the same number.</p>
-<img src="../pic/unit021_gdpex.png" alt="gdp" width="600"/></div>
-<div class="section" id="items-not-included-in-gdp">
-<h3>Items NOT Included in GDP<a class="headerlink" href="#items-not-included-in-gdp" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><p>Intermediate goods<br>Iron ore and steel in the example</p></li>
-<li><p>Nonproduction transactions</p>
-<ul>
-<li><p>Financial transactions<br>e.g. stocks, bonds, real estate<br>But the <strong>commission fee</strong> of financial transactions is <strong>included</strong> because it is financial service.</p></li>
-<li><p>Used goods</p></li>
-<li><p><strong>Transfer payment</strong><br>e.g. social security and unemployment insurance.</p></li>
-</ul>
-</li>
-<li><p>Nonmarket activities<br>e.g. household production, unpaid work</p></li>
-<li><p>Illegal activities</p></li>
-</ul>
+<div class="section" id="gdp-deflator">
+<h2>GDP Deflator<a class="headerlink" href="#gdp-deflator" title="Permalink to this headline">¶</a></h2>
 <dl class="simple myst">
-<dt>Transfer payment</dt><dd><p>Payment of money for which there are no goods or services exchanged.</p>
-</dd>
-<dd><p>Government payments to individuals through social programs such as welfare, student grants, and even Social Security.</p>
+<dt>GDP deflator</dt><dd><p>Measures the changes in prices for all the goods and services produced in an economy.</p>
 </dd>
 </dl>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mtext>GDP Deflator</mtext>
+  <mo>=</mo>
+  <mfrac>
+    <mtext>GDP</mtext>
+    <mtext>Real GDP</mtext>
+  </mfrac>
+  <mo>&#x00D7;<!-- × --></mo>
+  <mn>100</mn>
+</math><br><br>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mtext>Real GDP</mtext>
+  <mo>=</mo>
+  <mfrac>
+    <mtext>GDP</mtext>
+    <mtext>GDP Deflator</mtext>
+  </mfrac>
+  <mo>&#x00D7;<!-- × --></mo>
+  <mn>100</mn>
+</math><div class="admonition-cpi-vs-gdp-deflator admonition">
+<p class="admonition-title">CPI vs. GDP deflator</p>
+<ul class="simple">
+<li><p>GDP deflator ignores the price increase of imports.</p></li>
+<li><p>CPI ignores price changes of nonconsumer items.</p></li>
+</ul>
+<p>They do not differ markedly.</p>
 </div>
 </div>
 </div>
@@ -494,17 +319,17 @@
         
             <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="unit02.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="unit025.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Economic Indicators and the Business Cycle</p>
+            <p class="prev-next-title">Costs of Inflation</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="unit022.html" title="next page">
+    <a class='right-next' id="next-link" href="unit027.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Limitations of GDP</p>
+        <p class="prev-next-title">Business Cycles</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
