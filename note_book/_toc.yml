@@ -13,3 +13,10 @@ chapters:
   - file: py/unit025
   - file: py/unit026
   - file: py/unit027
+- file: py/unit03
+  sections:
+  - file: py/unit031
+  - file: py/unit032
+  - file: py/unit033
+#  - file: py/unit034
+#  - file: py/unit035
