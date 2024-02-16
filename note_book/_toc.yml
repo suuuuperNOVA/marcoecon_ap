@@ -18,5 +18,7 @@ chapters:
   - file: py/unit031
   - file: py/unit032
   - file: py/unit033
-#  - file: py/unit034
-#  - file: py/unit035
+  - file: py/unit034
+  - file: py/unit035
+  - file: py/unit036
+  - file: py/unit037
