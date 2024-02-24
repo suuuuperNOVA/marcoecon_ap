@@ -50,7 +50,7 @@ fig1 + text1
 # - If the price level decreases (deflation), then real GDP supplied decreases.
 # 
 # 
-# Reasons why AD is downward sloping:<br>
+# Reasons why AS is upward sloping:<br>
 # Suppliers have incentive to bring more to market if the price level rises because they can get more for their finished products while wages remain unchanged.
 # ```
 

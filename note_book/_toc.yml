@@ -24,3 +24,11 @@ chapters:
   - file: py/unit037
   - file: py/unit038
   - file: py/unit039
+- file: py/unit04
+  sections:
+  - file: py/unit041
+  - file: py/unit042
+  - file: py/unit043
+  - file: py/unit044
+  - file: py/unit045
+  - file: py/unit046

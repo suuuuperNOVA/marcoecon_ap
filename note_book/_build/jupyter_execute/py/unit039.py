@@ -8,9 +8,3 @@
 # : Prevent recessions from becoming depressions,
 # : Keep inflations from turning into hyperinflations.
 # : e.g. Temporary Aid to Needy Families.
-
-# In[ ]:
-
-
-
-
