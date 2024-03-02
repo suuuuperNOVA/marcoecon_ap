@@ -5,7 +5,8 @@
 
 # Nominal interest rate
 # : Percentage increase in money that the borrower pays (not adjusted for inflation).
-# <br><br>
+# <br>
+# 
 # Real interest rate
 # : Percentage increase in purchasing power that a borrower pays (adjusted for inflation).
 # <br><br>

@@ -66,7 +66,7 @@
 # Financial risks are uncertainties about future outcomes that involve financial losses and gains, including:
 # - Market risk<br>Movement in prices of financial instrument.
 # - Credit risk<br>One fails to fulfill their obligations towards their counterparties, such as default on the mortgage repayments.
-# - Operational risk<br> Mismanagement or technical failures, such as fraud Risk and model Risk.
+# - Operational risk<br> Mismanagement or technical failures, such as fraud risk and model risk.
 # - Legal risk<br>Risk to be involved in a lawsuit.
 
 # The figure below shows the financial assets at the corresponding risk levels. **The greater the risk, the higher the rate of return to compensate the investors taking additional risks.**
@@ -77,7 +77,8 @@
 # Bond
 # : Paid a fixed interest rate (coupon) to debtholders.
 # : e.g. treasury bonds, corporate bonds.
-# <br><br>
+# <br>
+# 
 # Equity
 # : Value that would be returned to a company’s shareholders if all of the assets were liquidated and all of the company's debts were paid off.
 # ```

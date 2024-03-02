@@ -32,3 +32,13 @@ chapters:
   - file: py/unit044
   - file: py/unit045
   - file: py/unit046
+  - file: py/unit047
+- file: py/unit05
+  sections:
+  - file: py/unit051
+  - file: py/unit052
+  - file: py/unit053
+  - file: py/unit054
+  - file: py/unit055
+  - file: py/unit056
+  - file: py/unit057

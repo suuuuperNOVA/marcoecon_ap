@@ -5,8 +5,8 @@
 
 # The money supply can **only** be changed by the Fed. The Fed changes the amount of money in the economy in 3 ways:
 # - Reserve requirement ratio
-#     - For a higher reserve requirement ratio, banks can hold less money and have more excess reserve;
-#     - For a lower reserve requirement ratio, banks can hold more money and have less excess reserve.
+#     - For a higher reserve requirement ratio, banks can hold more money and have less excess reserve;
+#     - For a lower reserve requirement ratio, banks can hold less money and have more excess reserve.
 # - Discount rate<br>The interest rate at which the Fed charges commercial banks.
 #     - More money supply at a lower discount rate;
 #     - Less money supply at a higher discount rate.
