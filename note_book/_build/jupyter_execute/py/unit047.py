@@ -13,7 +13,7 @@
 # - Governments
 # - Foreign businesses and governments.
 
-# ## Demand for Loanable Funds**
+# ## Demand for Loanable Funds
 # 
 # When the real interest rate is high, the quantity of funds demanded will be relatively low because of the high cost (*vice versa*). So, the demand curve is downward sloping.
 

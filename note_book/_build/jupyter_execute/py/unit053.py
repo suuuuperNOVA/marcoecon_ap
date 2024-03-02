@@ -20,7 +20,7 @@
 # where M is the money supply (M1 or M2); V is the velocity of money; P is the price level; Y is the quantity of output or real GDP.
 
 # Velocity of money
-# : # of times the typical dollar of M1 or M2 is used to make purchases during a year.
+# : \# of times the typical dollar of M1 or M2 is used to make purchases during a year.
 
 # > We assume the velocity of money (v) and the real GDP are constant. The increase in the money supply (M) makes the inflation.
 
