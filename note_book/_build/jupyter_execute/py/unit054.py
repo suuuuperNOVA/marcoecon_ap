@@ -11,6 +11,6 @@
 # 
 # National debt
 # : Accumulation of all the budget deficits over time. 
-# : If the Government increases spending without increasing taxes they will increase the annual deficit and the national debt. 
+# : If the government increases spending without increasing taxes they will increase the annual deficit and the national debt. 
 
 # A government must pay interest on its accumulated debt, thus increasing the national debt and increasingly forgoing using those funds for alternative uses.
