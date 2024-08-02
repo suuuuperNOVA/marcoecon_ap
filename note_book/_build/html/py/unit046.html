@@ -383,6 +383,24 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#reserve-market">
+   Reserve Market
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ample-reserve">
+   Ample Reserve
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -414,10 +432,50 @@
 </ul>
 </li>
 </ul>
+<p>The Fed changes the money supply to achieve macroeconomic goals, such as price stability and full employment. In reality, there are lags to monetary policy caused by the time it takes to recognize a problem in the economy and the time it takes the economy to adjust to the policy action.</p>
+<div class="section" id="reserve-market">
+<h2>Reserve Market<a class="headerlink" href="#reserve-market" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-discount-rate-vs-federal-fund-rate admonition">
+<p class="admonition-title">Discount rate vs. Federal fund rate</p>
+<dl class="simple myst">
+<dt>Discount rate/DR</dt><dd><p>Borrowing rate between the central bank and commercial banks.<br><br></p>
+</dd>
+<dt>Federal funds rate/FFR</dt><dd><p>Borrowing rate among banks.</p>
+</dd>
+</dl>
+</div>
+<p>The figure below shows the reserve market:</p>
 <ul class="simple">
-<li><p>The Fed changes the money supply to achieve macroeconomic goals, such as price stability and full employment.</p></li>
-<li><p>In reality, there are lags to monetary policy caused by the time it takes to recognize a problem in the economy and the time it takes the economy to adjust to the policy action.</p></li>
+<li><p>y-axis is the policy rate of reserves.</p></li>
+<li><p>x-axis is the quantity of reserves.</p></li>
+<li><p>The interest rate is capped by the discount rate.<br>
+The interest rate will not be higher than DR. If the interest rate is above DR, banks can borrow from the central bank.</p></li>
+<li><p>The floor of the interest rate is the federal funds rate.<br>
+The interest rate will not be lower than FFR. If the interest rate is below DR, banks can arbitrage on interest rates, like borrowing at a low rate and making interests on reserves. Finally, the interest rate will be back to FFR.</p></li>
+<li><p>There are 2 sections, the limited reserve and ample reserve.</p>
+<ul>
+<li><p>Limited reserve with a downward sloping line.</p></li>
+<li><p>Ample reserve is a constant line.</p></li>
 </ul>
+</li>
+</ul>
+<img src="../pic/unit046_reservemkt.png" alt="resrve" width="800"/></div>
+<div class="section" id="ample-reserve">
+<h2>Ample Reserve<a class="headerlink" href="#ample-reserve" title="Permalink to this headline">¶</a></h2>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Within an ample reserve market, the usual <strong>monetary policies</strong> (reserve ratio, discount rate, and
+open market operation) do <strong>not work</strong>. The central bank control the supply of reserve, but the
+demand for reserve is a horizontal line within an ample reserve market.<br><br></p>
+<p>With ample reserves, the central bank can increase or decrease interest rates by changing the
+discount rates (DR) and the interest on reserves (IOR). DR and IOR are known as the administrated rates.</p>
+<ul class="simple">
+<li><p>When the discount rate increases, the ceiling increases.</p></li>
+<li><p>When the interest on reserve increases, the floor increases.</p></li>
+</ul>
+<img src="../pic/unit046_amplereserve.png" alt="ample" width="800"/>
+</div>
+</div>
 </div>
 
     <script type="text/x-thebe-config">

@@ -45,11 +45,11 @@
 # 
 # Money can be classified by liquidity:
 # - M0<br>Monetary base<br>M0 = Currency notes + Coins + Bank reserves
-# - M1<br>Narrow money, including M0 and other highly liquid deposits in the bank.<br>M1 = M0 + Demand deposits
+# - M1<br>Narrow money, including M0 and other highly liquid deposits in the bank.<br>M1 = M0 + Checking account
 #     - Currency in circulation
 #     - Checkable bank deposits (checking account)
-#     - Saving accounts
-# - M2<br>M2 = M1 + Marketable securities + Other less liquid bank deposits
+# - M2<br>M2 = M1 + Saving account + Other less liquid bank deposits
+#     - Saving account
 #     - Small time deposits (certificates of deposit)
 #     - Money market funds
 
